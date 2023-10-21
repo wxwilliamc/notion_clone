@@ -13,7 +13,15 @@ const Logo = () => {
         <Image 
             src='/logo.svg'
             alt="logo"
-            className="object-contain"
+            className="dark:hidden"
+            width={40}
+            height={40}
+        />
+
+        <Image 
+            src='/logo-dark.svg'
+            alt="logo"
+            className="hidden dark:block"
             width={40}
             height={40}
         />

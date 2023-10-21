@@ -9,7 +9,6 @@ const MarketingPage = () => {
         <HeadingCom />
         <HeroesCom />
       </div>
-      <Footer />
     </div>
   )
 }

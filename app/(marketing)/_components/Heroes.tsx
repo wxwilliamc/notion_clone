@@ -10,7 +10,14 @@ const HeroesCom = () => {
                 <Image 
                     src='/assets/reading.png'
                     alt='reading'
-                    className='object-contain'
+                    className='object-contain dark:hidden'
+                    fill
+                />
+
+                <Image 
+                    src='/assets/reading-dark.png'
+                    alt='reading'
+                    className='object-contain hidden dark:block'
                     fill
                 />
             </div>
@@ -19,7 +26,14 @@ const HeroesCom = () => {
                 <Image 
                     src='/assets/documents.png'
                     alt='documents'
-                    className='object-contain'
+                    className='object-contain dark:hidden'
+                    fill
+                />
+
+                <Image 
+                    src='/assets/documents-dark.png'
+                    alt='documents'
+                    className='object-contain hidden dark:block'
                     fill
                 />
             </div>
