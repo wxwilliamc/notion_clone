@@ -8,7 +8,7 @@ const HeroesCom = () => {
             
             <div className='relative w-[300px] h-[300px] sm:w-[350px] sm:h-[350px] md:w-[400px] md:h-[400px]'>
                 <Image 
-                    src='/assets/reading.png'
+                    src='/assets/discussion.png'
                     alt='reading'
                     className='object-contain dark:hidden'
                     fill
@@ -24,7 +24,7 @@ const HeroesCom = () => {
             
             <div className='relative h-[400px] w-[400px] hidden md:block'>
                 <Image 
-                    src='/assets/documents.png'
+                    src='/assets/discussion-2.png'
                     alt='documents'
                     className='object-contain dark:hidden'
                     fill
