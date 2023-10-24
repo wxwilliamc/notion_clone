@@ -1,8 +1,11 @@
+"use client"
+
 import { ChevronsLeft, Menu } from 'lucide-react'
 import { usePathname } from 'next/navigation'
 import React, { ElementRef, useRef, useState, useEffect } from 'react'
 import { useMediaQuery } from 'usehooks-ts'
 import { cn } from '@/lib/utils'
+import UserItemCom from './UserItem'
 
 const Navigation = () => {
 
@@ -97,7 +100,7 @@ const Navigation = () => {
 
             <div>
                 <p>
-                    Action Items
+                    <UserItemCom />
                 </p>
             </div>
 
